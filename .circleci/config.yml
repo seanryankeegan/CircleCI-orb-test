@@ -10,8 +10,7 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: https://api.getpostman.com/collections/14272639-8f0b5db2-d256-4bf7-b6b5-edeff2279ebc?apikey=PMAK-6182fb8a1a417e005df14e14-7f5d62f1ac5506cca9e46b0430f21b8c4e
-
+          collection: https://api.getpostman.com/collections/14272639-8f0b5db2-d256-4bf7-b6b5-edeff2279ebc?apikey={API_KEY}
 workflows:
   run-collection-workflow:
     jobs:
